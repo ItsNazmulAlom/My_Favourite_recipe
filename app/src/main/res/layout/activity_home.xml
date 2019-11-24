@@ -8,86 +8,6 @@
     tools:context=".HomeActivity">
 
     <LinearLayout
-        android:id="@+id/layout6"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_below="@id/layout5"
-        android:background="@android:drawable/zoom_plate"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@android:drawable/menuitem_background"
-            android:text="Button" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/layout5"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_below="@id/layout4"
-        android:background="@android:drawable/zoom_plate"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@android:drawable/menuitem_background"
-            android:text="Button" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/layout4"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_below="@id/layout3"
-        android:background="@android:drawable/zoom_plate"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@android:drawable/menuitem_background"
-            android:text="Button" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/layout3"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_below="@id/layout2"
-        android:background="@android:drawable/zoom_plate"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@android:drawable/menuitem_background"
-            android:text="Button" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/layout2"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_below="@id/layaout1"
-        android:background="@android:drawable/zoom_plate"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@android:drawable/menuitem_background"
-            android:text="Button" />
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/layaout1"
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -95,11 +15,13 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_burger"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:drawable/menuitem_background"
-            android:text="Button" />
+            android:text="Falafel Burger"
+            android:textSize="30sp"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
 </RelativeLayout>
