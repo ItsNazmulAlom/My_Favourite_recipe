@@ -8,6 +8,24 @@
     tools:context=".HomeActivity">
 
     <LinearLayout
+        android:id="@+id/layourt2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/layaout1"
+        android:background="@android:drawable/zoom_plate"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_recipe2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/menuitem_background"
+            android:text="Chicken Biriyani"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/layaout1"
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -15,7 +33,7 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btn_burger"
+            android:id="@+id/btn_recipe1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:drawable/menuitem_background"
