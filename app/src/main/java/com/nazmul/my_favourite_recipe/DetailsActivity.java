@@ -37,7 +37,7 @@ public class DetailsActivity extends AppCompatActivity {
 
 
         }
-        else if (getRecipeNo.equals("two"){
+        else if (getRecipeNo.equals("two")){
             textName.setText("chicken_biriyani");
             TextDescription.setText(R.string.chicken_biriyani);
             imageFood.setImageResource(R.drawable.chicken_biriyani);
