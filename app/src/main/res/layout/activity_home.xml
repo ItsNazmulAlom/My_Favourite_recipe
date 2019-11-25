@@ -8,6 +8,24 @@
     tools:context=".HomeActivity">
 
     <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/layourt2"
+        android:background="@android:drawable/zoom_plate"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_recipe3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/menuitem_background"
+            android:text="Chocolate  Cake"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/layourt2"
         android:layout_width="match_parent"
         android:layout_height="100dp"

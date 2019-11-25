@@ -24,6 +24,7 @@ Button   btnRecipe1,btnRecipe2,btnRecipe3,btnRecipe4,btnRecipe5;
 
      btnRecipe1= findViewById(R.id.btn_recipe1);
      btnRecipe2= findViewById(R.id.btn_recipe2);
+     btnRecipe3 = findViewById(R.id.btn_recipe3);
 
      btnRecipe1.setOnClickListener(new View.OnClickListener() {
          @Override
@@ -42,8 +43,19 @@ Button   btnRecipe1,btnRecipe2,btnRecipe3,btnRecipe4,btnRecipe5;
              Intent intent= new Intent(HomeActivity.this,DetailsActivity.class);
              intent.putExtra("recipe_no","two");
              startActivity(intent);
-             Toast.makeText(HomeActivity.this,"Chockolate Cake",Toast.LENGTH_SHORT).show();
+             Toast.makeText(HomeActivity.this,"Chicken Biriyani",Toast.LENGTH_SHORT).show();
 
+         }
+     });
+
+
+     btnRecipe3.setOnClickListener(new View.OnClickListener() {
+         @Override
+         public void onClick(View view) {
+             Intent intent= new Intent(HomeActivity.this,DetailsActivity.class);
+             intent.putExtra("recipe_no","three");
+             startActivity(intent);
+             Toast.makeText(HomeActivity.this,"Chocolate Cake",Toast.LENGTH_LONG).show();
          }
      });
 

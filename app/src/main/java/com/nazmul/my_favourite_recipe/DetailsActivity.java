@@ -43,6 +43,11 @@ public class DetailsActivity extends AppCompatActivity {
             imageFood.setImageResource(R.drawable.chicken_biriyani);
 
         }
+        else if (getRecipeNo.equals("three")){
+            textName.setText("Chocolate Cake");
+            TextDescription.setText(R.string.chocolate_cake);
+            imageFood.setImageResource(R.drawable.cake);
+        }
 
 
 
