@@ -60,4 +60,22 @@
             android:textColor="@android:color/white" />
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/Layout4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/layout3"
+        android:background="@android:drawable/zoom_plate"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_recipe4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/menuitem_background"
+            android:text="Mexican Pizza"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
 </RelativeLayout>

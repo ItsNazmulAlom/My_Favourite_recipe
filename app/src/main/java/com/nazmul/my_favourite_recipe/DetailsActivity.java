@@ -34,8 +34,6 @@ public class DetailsActivity extends AppCompatActivity {
             TextDescription.setText(R.string.falafel_burger);
             imageFood.setImageResource(R.drawable.falafel_burgers);
 
-
-
         }
         else if (getRecipeNo.equals("two")){
             textName.setText("chicken_biriyani");
@@ -48,6 +46,12 @@ public class DetailsActivity extends AppCompatActivity {
             TextDescription.setText(R.string.chocolate_cake);
             imageFood.setImageResource(R.drawable.cake);
         }
+        else if (getRecipeNo.equals("four")){
+            textName.setText("Mexican Pizza");
+            TextDescription.setText(R.string.mexican_pizza);
+            imageFood.setImageResource(R.drawable.pizza);
+        }
+
 
 
 
